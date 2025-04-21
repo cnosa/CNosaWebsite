@@ -3,18 +3,20 @@ email: cnosa@unal.edu.co
 tab_title: Carlos Nosa | Web
 
 # Español
-name_es: Carlos Nosa
-profession_es: Matemático
-status_es: En proceso de formación
-location_es: Bogotá, Colombia
-age_es: 21 años
+es:
+  name: Carlos Nosa
+  profession: Matemático
+  status: En proceso de formación
+  location: Bogotá, Colombia
+  age: 21 años
 
-# Inglés
-name_en: Carlos Nosa
-profession_en: Mathematician
-status_en: In formation process
-location_en: Bogotá, Colombia
-age_en: 21 years
+en:
+  name: Carlos Nosa
+  profession: Mathematician
+  status: In formation process
+  location: Bogotá, Colombia
+  age: 21 years
+
 
 
 
