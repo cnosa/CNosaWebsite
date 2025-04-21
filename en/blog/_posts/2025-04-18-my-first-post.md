@@ -8,6 +8,4 @@ excerpt: "Description"
 
 ## Introduction
 
-### Sectionn 1
-- Point 1
-
+### Section

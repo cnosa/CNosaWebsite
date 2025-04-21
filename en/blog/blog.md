@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Blog
-permalink: /blog/
-lang: es
+permalink: en/blog/
+lang: en
 ---
 
-# Blog: Echa un vistazo a lo que pienso ahora
+# Blog: Check out what I'm thinking now
 
 {% for post in site.posts %}
 - [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%d/%m/%Y" }}  
