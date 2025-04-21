@@ -1,8 +1,9 @@
 title: Carlos Nosa
 profession: Matemático
 location: Bogotá, Colombia
-age: 23
+age: 21 años
 email: cnosa@unal.edu.co
+tab_title: Carlos Nosa | Matemático
 
 
 description: Portafolio profesional
@@ -12,11 +13,12 @@ github_url: https://github.com/cnosa
 instagram_url: https://www.instagram.com/nosanonimo/
 plugins:
   - jekyll-polyglot
+  - jekyll-paginate
 defaults:
   - scope:
       path: ""
     values:
       layout: default
-
-plugins:
-  - jekyll-polyglot
+      lang: es
+languages: ["es", "en"]
+exclude_from_localizations: ["assets", "images"]

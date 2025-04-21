@@ -2,7 +2,8 @@
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 <head>
   <meta charset="UTF-8">
-  <title>{{ site.title }}</title>
+  <title>{{ site.tab_title | default: "Carlos Nosa | Website " }}</title>
+  <link rel="icon" href="{{ '/assets/images/logo.png' | relative_url }}" type="image/png">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -11,79 +12,66 @@
       margin: 0;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
       line-height: 1.6;
+      color: #24292e;
+      background-color: #fff;
     }
     .wrapper {
       display: flex;
       min-height: 100vh;
     }
     .sidebar {
-      width: 250px;
+      width: 100px;
       padding: 30px 20px;
-      background-color: #f8f8f8;
       position: fixed;
       height: 100vh;
       box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       border-right: 1px solid #eaeaea;
     }
     .main-content {
       flex: 1;
       padding: 40px;
-      margin-left: 290px;
+      margin-left: 140px;
       max-width: 800px;
     }
     .profile-img {
-      width: 150px;
+      width: 80px;
       border-radius: 50%;
-      margin: 0 auto 20px;
-      display: block;
-      border: 3px solid #fff;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-    .profile-info {
-      text-align: center;
       margin-bottom: 30px;
+      border: 2px solid #f0f0f0;
     }
-    .profile-info h1 {
-      margin: 10px 0 5px;
-      font-size: 1.5em;
-    }
-    .profile-info p {
-      margin: 5px 0;
-      color: #666;
-      font-size: 0.9em;
-    }
-    .contact-links {
+    .icon-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 25px;
       margin: 30px 0;
     }
-    .contact-links a {
-      display: block;
-      margin-bottom: 12px;
-      text-decoration: none;
-      color: #24292e;
-      transition: color 0.2s;
-      font-size: 0.95em;
-    }
-    .contact-links a:hover {
-      color: #0366d6;
-    }
     .social-icon {
-      width: 18px;
-      margin-right: 10px;
-      text-align: center;
+      font-size: 24px;
+      color: #24292e;
+      transition: transform 0.2s, color 0.2s;
+    }
+    .social-icon:hover {
+      transform: scale(1.1);
+      color: #0366d6;
     }
     .nav-menu {
       list-style: none;
       padding: 0;
       margin: 40px 0;
+      text-align: center;
     }
     .nav-menu li {
-      margin-bottom: 15px;
+      margin-bottom: 25px;
     }
     .nav-menu a {
       text-decoration: none;
       color: #24292e;
       font-weight: 600;
-      font-size: 1em;
+      font-size: 0.9em;
       transition: color 0.2s;
     }
     .nav-menu a:hover {
@@ -92,14 +80,29 @@
     @media (max-width: 768px) {
       .sidebar {
         width: 100%;
-        position: relative;
         height: auto;
+        position: relative;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 15px 10px;
         border-right: none;
         border-bottom: 1px solid #eaeaea;
       }
       .main-content {
         margin-left: 0;
-        padding: 20px;
+        padding: 25px;
+      }
+      .profile-img {
+        width: 50px;
+        margin-bottom: 0;
+      }
+      .icon-container {
+        flex-direction: row;
+        margin: 0 15px;
+        gap: 20px;
+      }
+      .nav-menu {
+        display: none;
       }
     }
   </style>
@@ -107,50 +110,35 @@
 <body>
   <div class="wrapper">
     <div class="sidebar">
-      <!-- Información de perfil -->
-      <div class="profile-info">
-        <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Foto de perfil" class="profile-img">
-        <h1>{{ site.title }}</h1>
-        <p>{{ site.profession }}</p>
-        <p>{{ site.location }}</p>
-        <p>{{ site.age }}</p>
-      </div>
+      <!-- Foto de perfil -->
+      <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Foto de perfil" class="profile-img">
 
-      <!-- Links de contacto -->
-      <div class="contact-links">
-        <h3>Contacto</h3>
-        <a href="{{ site.linkedin_url }}" target="_blank">
-          <i class="fab fa-linkedin social-icon"></i> LinkedIn
+      <!-- Íconos de redes -->
+      <div class="icon-container">
+        <a href="{{ site.linkedin_url }}" target="_blank" title="LinkedIn">
+          <i class="fab fa-linkedin social-icon"></i>
         </a>
-        <a href="{{ site.github_url }}" target="_blank">
-          <i class="fab fa-github social-icon"></i> GitHub
+        <a href="{{ site.github_url }}" target="_blank" title="GitHub">
+          <i class="fab fa-github social-icon"></i>
         </a>
-        <a href="{{ site.instagram_url }}" target="_blank">
-          <i class="fab fa-instagram social-icon"></i> Instagram
+        <a href="{{ site.instagram_url }}" target="_blank" title="Instagram">
+          <i class="fab fa-instagram social-icon"></i>
         </a>
-        <a href="{{ '/assets/cv_es.pdf' | relative_url }}" target="_blank">
-          <i class="fas fa-file-pdf social-icon"></i> CV es
+        <a href="mailto:{{ site.email }}" title="Email">
+          <i class="fas fa-envelope social-icon"></i>
         </a>
-        <a href="{{ '/assets/cv_en.pdf' | relative_url }}" target="_blank">
-            <i class="fas fa-file-pdf social-icon"></i> CV en
-          </a>
-        <a href="mailto:{{ site.email }}">
-          <i class="fas fa-envelope social-icon"></i> Email
+        <a href="{{ '/assets/cv_en.pdf' | relative_url }}" target="_blank" title="Descargar CV">
+          <i class="fas fa-file-pdf social-icon"></i>
         </a>
       </div>
 
-      <!-- Navegación simplificada -->
+      <!-- Navegación mínima -->
       <nav>
         <ul class="nav-menu">
           <li><a href="{{ '/' | relative_url }}">Inicio</a></li>
           <li><a href="{{ '/blog' | relative_url }}">Blog</a></li>
         </ul>
       </nav>
-
-      <!-- Selector de idioma -->
-      <div class="language-switcher">
-        {% include language-switcher.html %}
-      </div>
     </div>
     
     <div class="main-content">
