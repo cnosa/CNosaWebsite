@@ -158,7 +158,7 @@
       </div>
 
       <!-- Navegación mínima -->
-      <nav class="nav-links">
+      <nav class="nav-menu">
         <a href="{{ '/' | relative_url }}" title="{{ site[page.lang].nav_links.home }}">
           {{ site[page.lang].nav_links.home }}
         </a>
@@ -168,15 +168,6 @@
       </nav>
     </div>
     
-    <!-- Selector de idioma -->
-    <div class="nav-links">
-      {% if page.lang == 'es' %}
-        <a href="/en{{ page.url }}" hreflang="en">en</a>
-      {% else %}
-        <a href="{{ page.url | remove_first: '/en' }}" hreflang="es">es</a>
-      {% endif %}
-    </div>
-  </div>
 
     <div class="main-content">
       {{ content }}
