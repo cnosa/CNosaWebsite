@@ -41,7 +41,7 @@
       max-width: 1000px;
     }
     .profile-img {
-      width: 150px;
+      width: 180px;
       border-radius: 50%;
       margin-bottom: 30px;
       border: 2px solid #f0f0f0;
@@ -243,9 +243,9 @@
         <!-- Selector de idioma -->
         <div class="language-switcher">
           {% if page.lang == 'es' %}
-            <a href="/en{{ page.url }}" class="language-link" title="English">EN</a>
+            <a href="{{ '/en' | append: page.url | relative_url }}" class="language-link" title="English">EN</a>
           {% else %}
-            <a href="{{ page.url | remove_first: '/en' }}" class="language-link" title="Español">ES</a>
+            <a href="{{ page.url | remove_first: '/en' | relative_url }}" class="language-link" title="Español">ES</a>
           {% endif %}
         </div>
       </nav>
