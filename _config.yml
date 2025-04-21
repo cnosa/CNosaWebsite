@@ -9,13 +9,21 @@ es:
   status: En proceso de formación
   location: Bogotá, Colombia
   age: 21 años
-
+  meta_description: "Portafolio profesional de Carlos Nosa, Matemático en formación"
+  nav_links:
+    home: "Inicio"
+    blog: "Blog"
 en:
   name: Carlos Nosa
   profession: Mathematician
   status: In formation process
   location: Bogotá, Colombia
   age: 21 years
+  meta_description: "Professional portfolio of Carlos Nosa, Mathematician in training"
+  nav_links:
+    home: "Home"
+    blog: "Blog"
+
 
 
 
@@ -37,11 +45,3 @@ defaults:
 languages: ["es", "en"]
 exclude_from_localizations: ["assets", "images"]
 
-
-nav_links_es:
-  home: "Inicio"
-  blog: "Blog"
-
-nav_links_en:
-  home: "Home"
-  blog: "Blog"
