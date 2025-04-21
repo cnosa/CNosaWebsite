@@ -1,6 +1,8 @@
 title: Carlos Nosa
 description: Portafolio profesional
 theme: jekyll-theme-minimal
+linkedin_url: https://linkedin.com/in/tuperfil
+github_url: https://github.com/tuusuario
 plugins:
   - jekyll-polyglot
 defaults:
@@ -8,7 +10,6 @@ defaults:
       path: ""
     values:
       layout: default
-
 
 plugins:
   - jekyll-polyglot

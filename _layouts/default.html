@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <style>
+    .wrapper {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .sidebar {
+      width: 250px;
+      padding: 20px;
+      position: fixed;
+    }
+    .main-content {
+      flex: 1;
+      padding: 20px;
+      margin-left: 290px;
+    }
+    .profile-img {
+      width: 150px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+    .social-icon {
+      width: 24px;
+      margin-right: 10px;
+      vertical-align: middle;
+    }
+    @media (max-width: 768px) {
+      .sidebar {
+        width: 100%;
+        position: relative;
+      }
+      .main-content {
+        margin-left: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="sidebar">
+      <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Foto de perfil" class="profile-img">
+      <h1>{{ site.title }}</h1>
+      <p>{{ site.description }}</p>
+      
+      <h3>Contacto</h3>
+      <p>
+        <a href="{{ site.linkedin_url }}" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="social-icon">
+          LinkedIn
+        </a>
+      </p>
+      <p>
+        <a href="{{ site.github_url }}" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" class="social-icon">
+          GitHub
+        </a>
+      </p>
+      
+      <h3>CV</h3>
+      <p>
+        <a href="{{ '/assets/cv.pdf' | relative_url }}" target="_blank">Descargar CV</a>
+      </p>
+      
+      {% include language-switcher.html %}
+      
+      <h3>Navegación</h3>
+      <nav>
+        <ul>
+          <li><a href="{{ '/' | relative_url }}">Inicio</a></li>
+          <li><a href="{{ '/about' | relative_url }}">Quién soy</a></li>
+          <li><a href="{{ '/news' | relative_url }}">Noticias</a></li>
+          <li><a href="{{ '/publications' | relative_url }}">Publicaciones</a></li>
+          <li><a href="{{ '/interests' | relative_url }}">Intereses</a></li>
+          <li><a href="{{ '/skills' | relative_url }}">Habilidades</a></li>
+          <li><a href="{{ '/blog' | relative_url }}">Blog</a></li>
+        </ul>
+      </nav>
+    </div>
+    
+    <div class="main-content">
+      {{ content }}
+    </div>
+  </div>
+</body>
+</html>
