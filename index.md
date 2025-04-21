@@ -11,6 +11,15 @@ Bienvenido/a a mi portafolio profesional.
 
 [Ver mi CV](/assets\CV_es.pdf) | [LinkedIn](https://www.linkedin.com/in/carlos-enrique-nosa-guzman-069258300/)
 
+
+# Quién soy
+
+Texto sobre ti, tu formación y experiencia profesional.
+
+![Mi foto](/assets/images/profile.jpg){: width="200" }
+
+
+
 ## Últimas publicaciones del blog
 
 {% for post in site.posts limit:3 %}
