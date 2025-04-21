@@ -1,0 +1,14 @@
+title: Carlos Nosa
+description: Portafolio profesional
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-polyglot
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+
+plugins:
+  - jekyll-polyglot

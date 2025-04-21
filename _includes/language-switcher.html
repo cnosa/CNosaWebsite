@@ -1,0 +1,7 @@
+<div class="language-switcher">
+    {% if page.lang == 'es' %}
+      <a href="{{ page.url | prepend: '/en' | relative_url }}">English</a>
+    {% else %}
+      <a href="{{ page.url | remove: '/en' | relative_url }}">Español</a>
+    {% endif %}
+  </div>
