@@ -1,83 +1,45 @@
-# ======================
-# Configuración Básica
-# ======================
 title: Carlos Nosa
-description: "Portafolio profesional de Carlos Nosa - Matemático en formación"
-baseurl: ""
-url: "https://cnosa.github.io/CNosaWebsite/"
-theme: jekyll-theme-minimal
-plugins:
-  - jekyll-theme-minimal
-remote_theme: pages-themes/minimal@v0.2.0
-
-# ======================
-# Metadatos Globales
-# ======================
-tab_title: "Carlos Nosa | Web"
 email: cnosa@unal.edu.co
+tab_title: Carlos Nosa | Web
 
-# ======================
-# Enlaces de Contacto
-# ======================
-linkedin_url: "https://www.linkedin.com/in/carlos-enrique-nosa-guzman-069258300/"
-github_url: "https://github.com/cnosa"
-instagram_url: "https://www.instagram.com/nosanonimo/"
+# Español
+name_es: Carlos Nosa
+profession_es: Matemático
+status_es: En proceso de formación
+location_es: Bogotá, Colombia
+age_es: 21 años
 
-# ======================
-# Configuración Multidioma
-# ======================
-languages: ["es", "en"]
-exclude_from_localizations: ["assets", "images"]
+# Inglés
+name_en: Carlos Nosa
+profession_en: Mathematician
+status_en: In formation process
+location_en: Bogotá, Colombia
+age_en: 21 years
+
+
+
+description: Proffesional portfolio
+theme: jekyll-theme-minimal
+linkedin_url: https://www.linkedin.com/in/carlos-enrique-nosa-guzman-069258300/
+github_url: https://github.com/cnosa
+instagram_url: https://www.instagram.com/nosanonimo/
+plugins:
+  - jekyll-polyglot
+  - jekyll-paginate
 defaults:
   - scope:
       path: ""
     values:
       layout: default
       lang: es
+languages: ["es", "en"]
+exclude_from_localizations: ["assets", "images"]
 
-# ======================
-# Contenido en Español
-# ======================
-es:
-  name: "Carlos Nosa"
-  profession: "Matemático"
-  status: "En proceso de formación"
-  location: "Bogotá, Colombia"
-  age: "21 años"
-  nav:
-    home: "Inicio"
-    blog: "Blog"
-  cv: "/assets/cv_es.pdf"
-  cv_text: "Hoja de Vida"
-  meta_description: "Portafolio profesional de Carlos Nosa, Matemático en formación"
 
-# ======================
-# English Content
-# ======================
-en:
-  name: "Carlos Nosa"
-  profession: "Mathematician"
-  status: "In formation process"
-  location: "Bogotá, Colombia"
-  age: "21 years"
-  nav:
-    home: "Home"
-    blog: "Blog"
-  cv: "/assets/cv_en.pdf"
-  cv_text: "Resume"
-  meta_description: "Professional portfolio of Carlos Nosa, Mathematician in training"
+nav_links_es:
+  home: "Inicio"
+  blog: "Blog"
 
-# ======================
-# Plugins
-# ======================
-plugins:
-  - jekyll-polyglot
-  - jekyll-paginate
-
-# ======================
-# Opciones de Build
-# ======================
-markdown: kramdown
-highlighter: rouge
-sass:
-  style: compressed
+nav_links_en:
+  home: "Home"
+  blog: "Blog"
