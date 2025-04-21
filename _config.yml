@@ -69,10 +69,3 @@ plugins:
   - jekyll-polyglot
   - jekyll-paginate
 
-# ======================
-# Opciones de Build
-# ======================
-markdown: kramdown
-highlighter: rouge
-sass:
-  style: compressed
