@@ -49,6 +49,7 @@ es:
     blog: "Blog"
   cv: "/assets/cv_es.pdf"
   cv_text: "Hoja de Vida"
+  meta_description: "Portafolio profesional de Carlos Nosa, Matemático en formación"
 
 # ======================
 # English Content
@@ -64,6 +65,7 @@ en:
     blog: "Blog"
   cv: "/assets/cv_en.pdf"
   cv_text: "Resume"
+  meta_description: "Professional portfolio of Carlos Nosa, Mathematician in training"
 
 # ======================
 # Plugins

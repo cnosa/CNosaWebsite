@@ -101,9 +101,21 @@
     }
     
     .language-switcher {
-      position: absolute;
+      position: fixed;
       top: 20px;
       right: 20px;
+      z-index: 100;
+    }
+
+    .language-switcher a {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 0.9rem;
+    }
+
+    .language-switcher i {
+      font-size: 1.2rem;
     }
     
     .main-content {
@@ -153,9 +165,13 @@
       }
       
       .language-switcher {
-        margin-top: 0;
-        padding-top: 0;
-        margin-left: 1rem;
+        position: static;
+        order: -1;
+        margin: 0 auto 1rem;
+      }
+      
+      .language-switcher a {
+        font-size: 1rem;
       }
       
       .main-content {
@@ -169,8 +185,9 @@
   <div class="wrapper">
     <div class="sidebar">
       <!-- Foto de perfil -->
-      <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Foto de perfil" class="profile-img">
-
+      <img src="{{ '/assets/images/profile.jpg' | relative_url }}" 
+           alt="Perfil de {{ site[page.lang].name }}" 
+           class="profile-img">
       <!-- Información del perfil -->
       <div class="profile-info">
         <h2>{{ site[page.lang].name }}</h2>
@@ -210,12 +227,15 @@
       <!-- Selector de idioma -->
       <div class="language-switcher">
         {% if page.lang == 'es' %}
-          <a href="/en{{ page.url }}">En <i class="fas fa-language"></i></a>
+          <a href="/en{{ page.url }}" title="English version">
+            <i class="fas fa-language"></i> EN
+          </a>
         {% else %}
-          <a href="{{ page.url | remove_first: '/en' }}">Es <i class="fas fa-language"></i></a>
+          <a href="{{ page.url | remove_first: '/en' }}" title="Versión en español">
+            <i class="fas fa-language"></i> ES
+          </a>
         {% endif %}
       </div>
-    </div>
     
     <div class="main-content">
       {{ content }}
