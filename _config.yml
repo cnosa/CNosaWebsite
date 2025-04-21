@@ -1,8 +1,9 @@
 title: Carlos Nosa
 description: Portafolio profesional
 theme: jekyll-theme-minimal
-linkedin_url: https://linkedin.com/in/tuperfil
-github_url: https://github.com/tuusuario
+linkedin_url: https://www.linkedin.com/in/carlos-enrique-nosa-guzman-069258300/
+github_url: https://github.com/cnosa
+instagram_url: https://www.instagram.com/nosanonimo/
 plugins:
   - jekyll-polyglot
 defaults:

@@ -5,15 +5,23 @@
   <title>{{ site.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    }
     .wrapper {
       display: flex;
-      flex-wrap: wrap;
+      min-height: 100vh;
     }
     .sidebar {
       width: 250px;
       padding: 20px;
+      background-color: #f8f8f8;
       position: fixed;
+      height: 100vh;
+      box-sizing: border-box;
     }
     .main-content {
       flex: 1;
@@ -23,17 +31,48 @@
     .profile-img {
       width: 150px;
       border-radius: 50%;
-      margin-bottom: 20px;
+      margin: 20px auto;
+      display: block;
     }
     .social-icon {
-      width: 24px;
       margin-right: 10px;
-      vertical-align: middle;
+      width: 20px;
+      text-align: center;
+    }
+    .nav-menu {
+      list-style: none;
+      padding: 0;
+      margin-top: 30px;
+    }
+    .nav-menu li {
+      margin-bottom: 15px;
+      font-weight: bold;
+    }
+    .nav-menu a {
+      text-decoration: none;
+      color: #24292e;
+      transition: color 0.3s;
+    }
+    .nav-menu a:hover {
+      color: #0366d6;
+    }
+    .contact-section {
+      margin-top: 30px;
+    }
+    .contact-section a {
+      display: block;
+      margin-bottom: 10px;
+      text-decoration: none;
+      color: #24292e;
+    }
+    .language-switcher {
+      margin-top: 30px;
     }
     @media (max-width: 768px) {
       .sidebar {
         width: 100%;
         position: relative;
+        height: auto;
       }
       .main-content {
         margin-left: 0;
@@ -44,34 +83,9 @@
 <body>
   <div class="wrapper">
     <div class="sidebar">
-      <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Foto de perfil" class="profile-img">
-      <h1>{{ site.title }}</h1>
-      <p>{{ site.description }}</p>
-      
-      <h3>Contacto</h3>
-      <p>
-        <a href="{{ site.linkedin_url }}" target="_blank">
-          <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="social-icon">
-          LinkedIn
-        </a>
-      </p>
-      <p>
-        <a href="{{ site.github_url }}" target="_blank">
-          <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" class="social-icon">
-          GitHub
-        </a>
-      </p>
-      
-      <h3>CV</h3>
-      <p>
-        <a href="{{ '/assets/cv.pdf' | relative_url }}" target="_blank">Descargar CV</a>
-      </p>
-      
-      {% include language-switcher.html %}
-      
-      <h3>Navegación</h3>
+      <!-- Barra de navegación en la parte superior -->
       <nav>
-        <ul>
+        <ul class="nav-menu">
           <li><a href="{{ '/' | relative_url }}">Inicio</a></li>
           <li><a href="{{ '/about' | relative_url }}">Quién soy</a></li>
           <li><a href="{{ '/news' | relative_url }}">Noticias</a></li>
@@ -81,6 +95,31 @@
           <li><a href="{{ '/blog' | relative_url }}">Blog</a></li>
         </ul>
       </nav>
+
+      <!-- Información de perfil debajo de la navegación -->
+      <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Foto de perfil" class="profile-img">
+      <h1 style="text-align: center;">{{ site.title }}</h1>
+      <p style="text-align: center;">{{ site.description }}</p>
+      
+      <div class="contact-section">
+        <h3>Contacto</h3>
+        <a href="{{ site.linkedin_url }}" target="_blank">
+          <i class="fab fa-linkedin social-icon"></i> LinkedIn
+        </a>
+        <a href="{{ site.github_url }}" target="_blank">
+          <i class="fab fa-github social-icon"></i> GitHub
+        </a>
+        <a href="{{ site.instagram_url }}" target="_blank">
+          <i class="fab fa-instagram social-icon"></i> Instagram
+        </a>
+        <a href="{{ '/assets/cv.pdf' | relative_url }}" target="_blank">
+          <i class="fas fa-file-pdf social-icon"></i> Descargar CV
+        </a>
+      </div>
+      
+      <div class="language-switcher">
+        {% include language-switcher.html %}
+      </div>
     </div>
     
     <div class="main-content">
