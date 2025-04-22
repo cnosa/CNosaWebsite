@@ -4,9 +4,11 @@ layout: default
 
 <style>
   .main-content {
-    margin-left: 300px !important;
-    padding: 20px 40px 40px 10px !important;
-    max-width: 900px;
+    margin-left: 250px !important;  /* Reduce este valor para acercar más el contenido a la sidebar */
+    padding: 20px 40px 40px 20px !important;
+    max-width: none !important;  /* Elimina el límite de ancho */
+    width: calc(100% - 250px);  /* Ocupa el espacio restante */
+    background: #ffffcc;  /* Color de fondo para el contenido principal */
   }
 
   /* Tarjetas horizontales */
@@ -38,15 +40,7 @@ layout: default
     flex: 1;
     padding: 1.5rem;
   }
-  .main-content h1 {
-    font-size: 2rem;
-    color: var(--azul-profesional);
-    margin-bottom: 0.5rem;
-  }
-  .main-content h3 {
-    color: var(--gris-texto);
-    margin-top: 0;
-  }
+
   /* Responsive */
   @media (max-width: 750px) {
     .main-content {
