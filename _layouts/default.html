@@ -26,7 +26,7 @@
       width: 100%;
       max-width: 1800px;
       margin: 0 auto;
-      padding: 0 100px;
+      padding: 0 150px;
       box-sizing: border-box;
       position: relative; /* Añadido para contexto de posicionamiento */
     }
@@ -261,11 +261,12 @@
             <span>{{ site.email }}</span>
           {% endif %}
         </a>
-        <a href="{% if page.lang == 'es' %}/assets/cv_es.pdf{% else %}/assets/cv_en.pdf{% endif %}" 
-           target="_blank" 
-           title="{% if page.lang == 'es' %}Hoja de vida{% else %}Resume{% endif %}">
-          <i class="fas fa-user-tie cv-icon"></i> 
-        </a>
+        <a href="{{ '/assets/cv_' | append: page.lang | append: '.pdf' | relative_url }}" 
+        target="_blank" 
+        title="{% if page.lang == 'es' %}Hoja de vida{% else %}Resume{% endif %}"
+        class="cv-link">
+        <i class="fas fa-user-tie cv-icon"></i>
+      </a>
       </div>
 
       <!-- Navegación mínima -->
