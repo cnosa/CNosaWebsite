@@ -26,7 +26,7 @@
       width: 100%;
       max-width: 1800px;
       margin: 0 auto;
-      padding: 0 20px;
+      padding: 0 70px;
       box-sizing: border-box;
       position: relative; /* Añadido para contexto de posicionamiento */
     }
@@ -72,7 +72,7 @@
       margin-top: 0;
     }
     .profile-img {
-      width: 180px;
+      width: 220px;
       border-radius: 50%;
       margin-bottom: 30px;
       border: 2px solid #f0f0f0;
@@ -253,13 +253,18 @@
         <a href="{{ site.instagram_url }}" target="_blank" title="Instagram">
           <i class="fab fa-instagram social-icon"></i>
         </a>
-        <a href="mailto:{{ site.email }}" title="Email">
+        <a href="mailto:{{ site.email | default: 'cnosa@unal.edu.co' }}" 
+          title="Enviar correo"
+          class="email-link">
           <i class="fas fa-envelope social-icon"></i>
+          {% if show_email_text %} <!-- Opcional: muestra el texto del email -->
+            <span>{{ site.email }}</span>
+          {% endif %}
         </a>
         <a href="{% if page.lang == 'es' %}/assets/cv_es.pdf{% else %}/assets/cv_en.pdf{% endif %}" 
            target="_blank" 
            title="{% if page.lang == 'es' %}Hoja de vida{% else %}Resume{% endif %}">
-          <i class="fas fa-user-tie cv-icon"></i> <!-- Nuevo ícono -->
+          <i class="fas fa-user-tie cv-icon"></i> 
         </a>
       </div>
 
