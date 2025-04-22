@@ -115,7 +115,7 @@ layout: default
               </a>
             </h2>
             <p class="blog-meta">
-              {{ post.date | date: "%d/%m/%Y" }} · 
+              {{ post.date | date: "%d/%m/%Y" }} 
               {% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %}
             </p>
             <p class="blog-excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</p>

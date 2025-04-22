@@ -1,9 +1,10 @@
 ---
-layout: default
+layout: blog
 title: Blog
 permalink: en/blog/
 lang: en
 ---
 
-# Blog: Check out what I'm thinking now
+# Blog
+### Check out what I'm thinking now
 

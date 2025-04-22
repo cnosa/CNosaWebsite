@@ -1,11 +1,12 @@
 ---
-layout: post
-title: "Mi first article"
-date: 2024-04-20
-lang: en
+layout: default  
+title: "My first post"
+thumbnail: /assets/images/logo.png
 excerpt: "Description"
+tags: [jekyll, web]
+lang: es  
 ---
-
-## Introduction
-
-### Section
+# Tí
+## Subt
+### Subsubt
+¡Perfect!

@@ -7,4 +7,4 @@ lang: es
 
 
 # Blog Personal  
-### Artículos y reflexiones sobre tecnología  
+### Echa un vistazo a lo que estoy pensando
