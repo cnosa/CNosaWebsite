@@ -21,38 +21,38 @@
       background-color: #fff;
     }
     .wrapper {
-    display: flex;
-    min-height: 100vh;
-    width: 100vw; /* Ocupa todo el ancho de la ventana */
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden; /* Evita scroll horizontal */
-  }
+      display: flex;
+      min-height: 100vh;
+      width: 100%;
+      max-width: 1800px;
+      margin: 0 auto;
+      padding: 0 20px;
+      box-sizing: border-box;
+      position: relative; /* Añadido para contexto de posicionamiento */
+    }
 
-  .sidebar {
-    width: 250px;
-    min-width: 250px; /* Fija el ancho mínimo */
-    padding: 30px 20px;
-    height: 100vh;
-    position: sticky; /* Alternativa a fixed para mejor integración */
-    top: 0;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-right: 1px solid #eaeaea;
-    background: white; /* Fondo sólido para superponer contenido */
-    z-index: 10; /* Asegura que esté sobre otros elementos */
-  }
+    .sidebar {
+      width: 250px;
+      min-width: 250px;
+      padding: 30px 20px;
+      height: 100vh;
+      position: sticky; /* Cambia de 'fixed' a 'sticky' */
+      top: 0;
+      box-sizing: border-box;
+      border-right: 1px solid #eaeaea;
+      background: white;
+      align-self: flex-start; /* Evita que se estire */
+      overflow-y: auto; /* Permite scroll interno si el contenido es largo */
+    }
 
-  .main-content {
-    flex: 1;
-    padding: 40px;
-    min-width: 0; /* Permite que el contenido se ajuste */
-    width: calc(100vw - 250px); /* Ocupa el resto del espacio */
-    max-width: none; /* Elimina cualquier límite */
-    box-sizing: border-box;
-  }
+    .main-content {
+      flex: 1;
+      padding: 40px;
+      min-width: 0;
+      width: calc(100% - 250px);
+      box-sizing: border-box;
+      overflow-y: auto; /* Scroll independiente si es necesario */
+    }
     .main-content h1 {
       font-size: 2rem;
       color: var(--azul-profesional);
