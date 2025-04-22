@@ -4,7 +4,7 @@ title: "My first post"
 thumbnail: /assets/images/logo.png
 excerpt: "Description"
 tags: [jekyll, web]
-lang: es  
+lang: en  
 ---
 # Tí
 ## Subt
