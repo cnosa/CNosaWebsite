@@ -6,3 +6,6 @@ excerpt: "Descripción breve del post"
 tags: [jekyll, web]
 lang: es  
 ---
+
+## Contenido en Markdown
+¡Funciona perfecto con sintaxis MD!

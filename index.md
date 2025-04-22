@@ -5,7 +5,7 @@ lang: es
 ref: home
 ---
 
-# Sobre mi
+# <span class="azul"> Sobre mi </span>
 
 Matemático con una sólida base académica y un profundo interés en la aplicación de herramientas matemáticas y computacionales a problemas del mundo real. Mi formación incluye experiencia en modelación matemática, análisis estadístico y programación, que he desarrollado a través de formación académica, proyectos de investigación y funciones de asistente docente en cursos de matemáticas de pregrado. Estoy dispuesto a asumir nuevos retos, me adapto a entornos diversos y estoy comprometido con el aprendizaje continuo. Valoro la colaboración y disfruto trabajando en equipos multidisciplinares, a los que puedo contribuir con pensamiento analítico, precisión y un enfoque riguroso de la resolución de problemas.
 
@@ -13,6 +13,7 @@ Matemático con una sólida base académica y un profundo interés en la aplicac
 📧 cnosa@unal.edu.co
 📧 cnosa47@gmail.com
 
+---
 
 # Líneas de investigación
 
@@ -24,6 +25,8 @@ Matemático con una sólida base académica y un profundo interés en la aplicac
 
 - **Aprendizaje profundo**
     Construcción de modelos basados en grafos para análisis de datos climáticos (Python, AWS).
+
+---
 
 # Experiencias profesionales
 
@@ -45,6 +48,7 @@ Matemático con una sólida base académica y un profundo interés en la aplicac
 *Fundación CARES* (2024)  
 - Tutoría personalizada para estudiantes en condición de vulnerabilidad.  
 
+---
 
 # Educación 
 
@@ -54,13 +58,19 @@ Matemático con una sólida base académica y un profundo interés en la aplicac
 - Cursos relevantes: Análisis numérico, probabilidad y estadística, matemáticas discretas.  
 - **Tesis**: *"Algoritmo Metropolis-Hastings para problemas inversos y calibración de modelos"* (Calificación: 5.0/5.0).
 
+
+---
+
 # Noticias
 - [May 2025] Obtuve mi grado de Matemático de la Universidad Nacional de Colombia.
+
+---
 
 # Publicaciones
 
 - Prontamente
 
+---
 
 # Experiencias de investigación
 
@@ -77,7 +87,7 @@ Matemático con una sólida base académica y un profundo interés en la aplicac
   Optimización y aproximación numérica de ecuaciones diferenciales. 
 
 
-
+---
 
 
 # Habilidades 
