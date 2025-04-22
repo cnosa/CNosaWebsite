@@ -45,6 +45,37 @@ layout: default
     text-decoration: underline;
   }
 
+  /* Estilos para las tags - Versión mejorada */
+.blog-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 1.2rem;
+}
+
+.tag {
+  background: linear-gradient(135deg, var(--azul-profesional) 0%, #1e40af 100%);
+  color: white;
+  padding: 0.35rem 0.9rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-transform: lowercase;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(30, 64, 175, 0.1);
+}
+
+.tag:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(30, 64, 175, 0.2);
+  background: linear-gradient(135deg, #1e40af 0%, var(--azul-profesional) 100%);
+}
+
+.tag::first-letter {
+  text-transform: uppercase;
+}
+
   /* Responsive */
   @media (max-width: 750px) {
     .main-content {
