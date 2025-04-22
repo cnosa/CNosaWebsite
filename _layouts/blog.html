@@ -1,0 +1,118 @@
+---
+layout: default 
+---
+
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'es' }}">
+<head>
+  {% include head.html %}  <!-- Reutiliza el head del layout base -->
+  <style>
+    /* Estilos específicos para la página de blog */
+    .blog-header {
+      margin-bottom: 2.5rem;
+      text-align: center;
+    }
+    .blog-header h1 {
+      font-size: 2.5rem;
+      color: var(--azul-profesional);
+      margin-bottom: 0.5rem;
+    }
+    .blog-list {
+      display: grid;
+      gap: 2.5rem;
+    }
+    .blog-card {
+      border: 1px solid #eaeaea;
+      border-radius: 8px;
+      overflow: hidden;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .blog-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+    .blog-card-image {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .blog-card-content {
+      padding: 1.5rem;
+    }
+    .blog-card h2 {
+      margin-top: 0;
+      font-size: 1.5rem;
+    }
+    .blog-meta {
+      color: var(--gris-texto);
+      font-size: 0.9rem;
+      margin: 0.5rem 0;
+    }
+    .blog-excerpt {
+      color: #4b5563;
+      margin: 1rem 0;
+    }
+    .blog-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+    .tag {
+      background: #f0f0f0;
+      padding: 0.3rem 0.8rem;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      color: #4b5563;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <!-- Sidebar (heredado del layout base) -->
+    <div class="sidebar">
+      <!-- Contenido del sidebar se inyecta automáticamente -->
+    </div>
+
+    <!-- Contenido principal del blog -->
+    <div class="main-content">
+      <header class="blog-header">
+        <h1>{{ site[page.lang].nav_links.blog | default: "Blog" }}</h1>
+        <p>{{ site[page.lang].blog_subtitle | default: "Artículos y reflexiones sobre tecnología" }}</p>
+      </header>
+
+      <div class="blog-list">
+        {% for post in site.posts %}
+          {% if post.lang == page.lang %}  <!-- Filtra por idioma -->
+            <article class="blog-card">
+              {% if post.thumbnail %}
+                <img 
+                  src="{{ post.thumbnail | relative_url }}" 
+                  alt="{{ post.title }}" 
+                  class="blog-card-image"
+                  loading="lazy"
+                >
+              {% endif %}
+              <div class="blog-card-content">
+                <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+                <p class="blog-meta">
+                  {{ post.date | date: "%d/%m/%Y" }} · 
+                  {% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %}
+                </p>
+                <p class="blog-excerpt">{{ post.excerpt | strip_html | truncate: 160 }}</p>
+                {% if post.tags %}
+                  <div class="blog-tags">
+                    {% for tag in post.tags %}
+                      <span class="tag">{{ tag }}</span>
+                    {% endfor %}
+                  </div>
+                {% endif %}
+              </div>
+            </article>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</body>
+</html>
