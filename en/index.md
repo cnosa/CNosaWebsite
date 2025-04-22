@@ -93,7 +93,7 @@ Spanish (Native) | English (Professional) | French (Basic)
 ## Recent Updates
 
 - [May 2025] Graduated with honors in Mathematics from National University of Colombia
-- [2024] Awarded best student presentation at MAPI III conference
+
 
 ---
 

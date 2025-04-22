@@ -48,7 +48,7 @@ Matemático con una sólida base académica y un profundo interés en la aplicac
 
 # Educación 
 
-**Licenciatura en Matemáticas** (2020–2025)  
+**Pregrado en Matemáticas** (2020–2025)  
 *Universidad Nacional de Colombia, Bogotá*  
 - Promedio: 4.7/5.0 (exención de matrícula por excelencia académica).  
 - Cursos relevantes: Análisis numérico, probabilidad y estadística, matemáticas discretas.  
