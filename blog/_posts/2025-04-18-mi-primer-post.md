@@ -6,6 +6,8 @@ excerpt: "Descripción breve del post"
 tags: [jekyll, web]
 lang: es  
 ---
-
+# Título
+## Subtítulo
+### Subsubtítulo
 ## Contenido en Markdown
 ¡Funciona perfecto con sintaxis MD!
