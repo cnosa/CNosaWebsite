@@ -34,6 +34,17 @@ layout: default
     padding: 1.5rem;
   }
 
+  /* Nuevos estilos para el enlace del título */
+  .post-title-link {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  .post-title-link:hover {
+    color: var(--azul-profesional);
+    text-decoration: underline;
+  }
+
   /* Responsive */
   @media (max-width: 750px) {
     .main-content {
@@ -50,7 +61,7 @@ layout: default
 </style>
 
 <div class="main-content">
-  {{ content }} <!-- Aquí se inyectará el markdown -->
+  {{ content }}
 
   <div class="blog-list">
     {% for post in site.posts %}
@@ -58,14 +69,20 @@ layout: default
         <article class="blog-card">
           {% if post.thumbnail %}
             <div class="blog-card-image-container">
-              <img src="{{ post.thumbnail | relative_url }}" 
-                   alt="{{ post.title }}" 
-                   class="blog-card-image"
-                   loading="lazy">
+              <a href="{{ post.url | relative_url }}" aria-label="Leer {{ post.title }}">
+                <img src="{{ post.thumbnail | relative_url }}" 
+                     alt="{{ post.title }}" 
+                     class="blog-card-image"
+                     loading="lazy">
+              </a>
             </div>
           {% endif %}
           <div class="blog-card-content">
-            <h2>{{ post.title }}</h2>
+            <h2>
+              <a href="{{ post.url | relative_url }}" class="post-title-link">
+                {{ post.title }}
+              </a>
+            </h2>
             <p class="blog-meta">
               {{ post.date | date: "%d/%m/%Y" }} · 
               {% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %}
