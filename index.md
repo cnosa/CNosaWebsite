@@ -5,7 +5,7 @@ lang: es
 ref: home
 ---
 
-# <span class="azul"> Sobre mi </span>
+# Sobre mi
 
 Matemático con una sólida base académica y un profundo interés en la aplicación de herramientas matemáticas y computacionales a problemas del mundo real. Mi formación incluye experiencia en modelación matemática, análisis estadístico y programación, que he desarrollado a través de formación académica, proyectos de investigación y funciones de asistente docente en cursos de matemáticas de pregrado. Estoy dispuesto a asumir nuevos retos, me adapto a entornos diversos y estoy comprometido con el aprendizaje continuo. Valoro la colaboración y disfruto trabajando en equipos multidisciplinares, a los que puedo contribuir con pensamiento analítico, precisión y un enfoque riguroso de la resolución de problemas.
 
@@ -15,7 +15,7 @@ Matemático con una sólida base académica y un profundo interés en la aplicac
 
 ---
 
-# Líneas de investigación
+## Líneas de investigación
 
 - **Visión por computadora**
     Aplicación de algoritmos de descomposición de valores singulares (SVD) y PCA en reconocimiento facial (proyecto Eigenfaces con el algoritmo Golub-Kahan)
@@ -28,7 +28,7 @@ Matemático con una sólida base académica y un profundo interés en la aplicac
 
 ---
 
-# Experiencias profesionales
+## Experiencias profesionales
 
 **Especialista en Modelado Matemático**  
 *Universidad Nacional de Colombia* (2023–2024)  
@@ -50,7 +50,7 @@ Matemático con una sólida base académica y un profundo interés en la aplicac
 
 ---
 
-# Educación 
+## Educación 
 
 **Pregrado en Matemáticas** (2020–2025)  
 *Universidad Nacional de Colombia, Bogotá*  
@@ -61,18 +61,18 @@ Matemático con una sólida base académica y un profundo interés en la aplicac
 
 ---
 
-# Noticias
+## Noticias
 - [May 2025] Obtuve mi grado de Matemático de la Universidad Nacional de Colombia.
 
 ---
 
-# Publicaciones
+## Publicaciones
 
 - Prontamente
 
 ---
 
-# Experiencias de investigación
+## Experiencias de investigación
 
 - **Escuela de Verano SIAM Gene Golub 2024** (Quito, Ecuador)  
  Métodos iterativos y aleatorizados para problemas inversos a gran escala.  
@@ -90,7 +90,7 @@ Matemático con una sólida base académica y un profundo interés en la aplicac
 ---
 
 
-# Habilidades 
+## Habilidades 
 
 **Lenguajes**:  
 Python (avanzado), Julia, R, SQL  
