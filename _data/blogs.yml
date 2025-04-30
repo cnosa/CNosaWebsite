@@ -1,6 +1,6 @@
-- title: "This is a test blog post"
-  description: "This is a test blog post to check the functionality of the blog."
+- title: "Summarizing my undergraduate thesis"
+  description: "Summarizing my undergraduate thesis by me"
   tags: ["test", "blog"]
   author: "Carlos Nosa"
   date: 2025-03-30
-  include: "myintro.md"
+  include: "Summarizingmyundergraduatethesis.md"

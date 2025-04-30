@@ -1,10 +1,10 @@
 ---
 layout: blog
-title: "Let's Talk"
+title: "Summarizing my undergraduate thesis"
 author: "Carlos Nosa"
 date: 2025-03-30
-excerpt: "This is more than a"
-thumbnail: ./assets/img/favicon.png
+excerpt: "Summarizing my undergraduate thesis by me"
+thumbnail: ./assets/img/UnderThesis.png
 ---
 
 *Let’s talk about purpose.  
