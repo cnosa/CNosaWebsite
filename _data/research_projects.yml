@@ -20,48 +20,12 @@ main:
 
   - title: Calibration of the TOMGRO model using Bayesian inference
     authors: Dr Rodrigo Gil,  Dr Juan Galvis, <strong>Carlos Nosa</strong>
-    conference_short: Presented at MAPI 2024
+    conference_short: Presented at MAPI 3, 2024
     conference: National University of Colombia, Bogotá, Colombia, 2024.
     pdf: 
     code: https://github.com/cnosa/ModeloTOMGRO
     image: ./assets/img/TomgroModel.png
     notes: 
 
-  - title: Bidiagonal Golub-Kahan algorithm applied to eigenfaces
-    authors: Dr Juan Galvis, <strong>Carlos Nosa</strong>, Brayan Romero
-    conference_short: Presented at MAPI 3, 2024
-    conference: National University of Colombia, Bogotá, Colombia, 2024.
-    pdf: 
-    code: https://github.com/cnosa/EigenFaces
-    image: ./assets/img/Eigenfaces.png
-    notes: 
-  
-  - title: Topological Optimization for MBB problem
-    authors: <strong>Carlos Nosa</strong>, Juan Murcia, Jaime Zamora
-    conference_short: 
-    conference: National University of Colombia, Bogotá, Colombia, 2024.
-    pdf: 
-    code: https://github.com/cnosa/OptimizacionTopologica
-    image: ./assets/img/TopologicalOptimization.png
-    notes: 
-
-  - title: Richards equation: Numerical solution using the nonlinear finite element method
-    authors: <strong>Carlos Nosa</strong>
-    conference_short: 
-    conference: National University of Colombia, Bogotá, Colombia, 2024.
-    pdf: 
-    code: https://github.com/cnosa/EcuacionRichards
-    image: ./assets/img/RichardsEquation.png
-    notes: 
-
-
-  - title: Continuous fractions and Farey sequences
-    authors: Beimar Naranjo, <strong>Carlos Nosa</strong>, Douglas Velasquez
-    conference_short: 
-    conference: National University of Colombia, Bogotá, Colombia, 2022.
-    pdf: 
-    code: https://github.com/cnosa/SucesionesdeFarey
-    image: ./assets/img/FareySequences.png
-    notes: 
 
   
