@@ -8,16 +8,12 @@ layout: homepage
 
 Mathematician with strong academic background and expertise in applying mathematical and computational tools to real-world problems. My experience includes mathematical modeling, statistical analysis, and programming, developed through academic research and undergraduate mathematics instruction. I thrive on new challenges, adapt quickly to diverse environments, and am committed to continuous learning. I particularly enjoy collaborative work in multidisciplinary teams where I can contribute analytical thinking and rigorous problem-solving approaches. Currently, I am actively seeking new professional opportunities where I can apply and expand my expertise.
 
-**Contact**:  
-📧 cnosa@unal.edu.co  
+**Information**:  
 
-📧 cnosa47@gmail.com  
-
-**My curriculum**
-
-📃 [CV: English version](/assets/files/documents/cv_en.pdf){:target="_blank"}
-
-📃 [CV: Spanish version](/assets/files/documents/cv_es.pdf){:target="_blank"}
+- 📧 Proffesional email: cnosa@unal.edu.co  
+- 📧 Personal email: cnosa47@gmail.com  
+- 📃 [CV: English version](/assets/files/documents/cv_en.pdf){:target="_blank"}
+- 📃 [CV: Spanish version](/assets/files/documents/cv_es.pdf){:target="_blank"}
 
 
 ## Research Interests
@@ -57,7 +53,12 @@ Mathematician with strong academic background and expertise in applying mathemat
 
 **Soft Skills**:
 
-Time management, effective communication, teamwork, adaptability, problem-solving, analytical thinking
+- Time management
+- Effective communication
+- Teamwork 
+- Adaptability
+- Problem-solving
+- Analytical thinking
 
 
 ## Recent Updates

@@ -1,7 +1,7 @@
 main:
 
   - title: Seminar on Image Processing and Computer Vision
-    authors: <strong>Carlos Nosa</strong>, Yessica Trujillo, Dr. Jorge Mauricio Ruiz
+    authors: Dr. Jorge Mauricio Ruiz, Angie Forero, <strong>Carlos Nosa</strong>, Yessica Trujillo, 
     conference_short: Active
     conference: National University of Colombia, Bogotá, Colombia, 2024-2025.
     pdf: 
@@ -10,20 +10,58 @@ main:
     notes:
 
   - title: 2024 Gene Golub SIAM Summer School
-    authors: 
-    conference_short: Active
+    authors: Iterative and Randomized Methods for Large-Scale Inverse Problems, SIAM.
+    conference_short: 
     conference: Escuela Politécnica Nacional, Ladrón de Guevara, Quito, Ecuador, Jul 2024.
     pdf: 
     code: https://g2s32024.github.io/
     image: ./assets/img/SummerSchool2024.png
-    notes:
-    description: Iterative and Randomized Methods for Large-Scale Inverse Problems, SIAM.
+    notes: 
 
-  - title: Topological Optimization for BBM problem
-    authors: <strong>Carlos Nosa</strong>
+  - title: Calibration of the TOMGRO model using Bayesian inference
+    authors: Dr Rodrigo Gil,  Dr Juan Galvis, <strong>Carlos Nosa</strong>
+    conference_short: Presented at MAPI 2024
+    conference: National University of Colombia, Bogotá, Colombia, 2024.
+    pdf: 
+    code: https://github.com/cnosa/ModeloTOMGRO
+    image: ./assets/img/TomgroModel.png
+    notes: 
+
+  - title: Bidiagonal Golub-Kahan algorithm applied to eigenfaces
+    authors: Dr Juan Galvis, <strong>Carlos Nosa</strong>, Brayan Romero
+    conference_short: Presented at MAPI 3, 2024
+    conference: National University of Colombia, Bogotá, Colombia, 2024.
+    pdf: 
+    code: https://github.com/cnosa/EigenFaces
+    image: ./assets/img/Eigenfaces.png
+    notes: 
+  
+  - title: Topological Optimization for MBB problem
+    authors: <strong>Carlos Nosa</strong>, Juan Murcia, Jaime Zamora
     conference_short: 
     conference: National University of Colombia, Bogotá, Colombia, 2024.
     pdf: 
     code: https://github.com/cnosa/OptimizacionTopologica
     image: ./assets/img/TopologicalOptimization.png
-    notes: Optimization project 
+    notes: 
+
+  - title: Richards equation: Numerical solution using the nonlinear finite element method
+    authors: <strong>Carlos Nosa</strong>
+    conference_short: 
+    conference: National University of Colombia, Bogotá, Colombia, 2024.
+    pdf: 
+    code: https://github.com/cnosa/EcuacionRichards
+    image: ./assets/img/RichardsEquation.png
+    notes: 
+
+
+  - title: Continuous fractions and Farey sequences
+    authors: Beimar Naranjo, <strong>Carlos Nosa</strong>, Douglas Velasquez
+    conference_short: 
+    conference: National University of Colombia, Bogotá, Colombia, 2022.
+    pdf: 
+    code: https://github.com/cnosa/SucesionesdeFarey
+    image: ./assets/img/FareySequences.png
+    notes: 
+
+  

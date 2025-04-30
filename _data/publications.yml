@@ -1,6 +1,6 @@
 main:
 
-  - title: The Metropolis algorithm
+  - title: The Metropolis-Hastings Algorithm: inverse problems, model calibration, and the TOMGRO model
     authors: <strong>Carlos Nosa</strong>, and Dr. Juan Galvis
 
     conference_short: UNAL, 2025
