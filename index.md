@@ -14,14 +14,14 @@ Mathematician with strong academic background and expertise in applying mathemat
 
 **My curriculum**
 
-📃 [CV: English version](/assets/file/documents/cv_en.pdf){:target="_blank"}
-📃 [CV: Spanish version](/assets/file/documents/cv_es.pdf){:target="_blank"}
+📃 [CV: English version](/assets/files/documents/cv_en.pdf){:target="_blank"}
+📃 [CV: Spanish version](/assets/files/documents/cv_es.pdf){:target="_blank"}
 
 
 ## Research Interests
 
 - **Stochastic Processes & Variational Inference.**  Scalable Bayesian methods for high-dimensional stochastic systems.  
-- **Deep Learning.**  Bridging modeling and computer vision in deep learning. Data assimilation.
+- **Deep Learning.**  Bridging modeling and computer vision in deep learning.
 - **Dynamical systems** Analysis of stochastic ODEs and PDEs.
 
 
@@ -29,11 +29,26 @@ Mathematician with strong academic background and expertise in applying mathemat
 
 ### B.Sc. in Mathematics  
 
-*National University of Colombia | 2020–2025*  
+*National University of Colombia* | *2020–2025*  
 
 - **GPA**: 4.7/5.0 (tuition exemption for academic excellence)  
 - **Thesis**: "Metropolis-Hastings Algorithm for Inverse Problems" (Grade: 5.0/5.0)  
 - **Key Courses**: Numerical Analysis, Probability Theory, Discrete Mathematics  
+
+## Skills
+
+**Tools**:  
+
+- *Programming and design*: Python, Julia, R, SQL, MATLAB, Power BI, Cloud computing (AWS), MATLAB, Microsoft, Latex, Visual Studio Code, Jupyter Notebooks.
+
+**Languages**:  
+
+Spanish (Native) | English (Professional) | French (Basic)
+
+**Soft skills**:  
+
+Time management, effective communication, teamwork and collaboration, adaptability, problem-solving, analytical thinking
+
 
 ## Recent Updates
 
@@ -47,13 +62,3 @@ Mathematician with strong academic background and expertise in applying mathemat
 {% include_relative _includes/services.md %}
 
 
-## Technical Skills
-
-**Tools**:  
-
-- Data Science: Jupyter, PyMC3, TensorFlow, Power BI
-- Modeling: MATLAB, LaTeX
-- Cloud: AWS  
-
-**Languages**:  
-Spanish (Native) | English (Professional) | French (Basic)
