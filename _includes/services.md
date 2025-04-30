@@ -29,8 +29,8 @@
 
 *CARES Foundation* | *Mar 2024 - July 2024*
 
-*6 hours per week*  
-
+ 
+- 6 hours per week.
 - Provided personalized tutoring to university students supported by the CARES Foundation, offering academic guidance tailored to their individual learning needs and promoting their success throughout their university studies.
 
 

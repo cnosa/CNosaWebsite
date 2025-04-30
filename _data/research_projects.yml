@@ -7,4 +7,23 @@ main:
     pdf: 
     code: https://github.com/ytrujillol/Procesamiento-de-imagenes
     image: ./assets/img/IPSeminar.png
-    notes: 
+    notes:
+
+  - title: 2024 Gene Golub SIAM Summer School
+    authors: 
+    conference_short: Active
+    conference: Escuela Politécnica Nacional, Ladrón de Guevara, Quito, Ecuador, Jul 2024.
+    pdf: 
+    code: https://g2s32024.github.io/
+    image: ./assets/img/SummerSchool2024.png
+    notes:
+    description: Iterative and Randomized Methods for Large-Scale Inverse Problems, SIAM.
+
+  - title: Topological Optimization for BBM problem
+    authors: <strong>Carlos Nosa</strong>
+    conference_short: 
+    conference: National University of Colombia, Bogotá, Colombia, 2024.
+    pdf: 
+    code: https://github.com/cnosa/OptimizacionTopologica
+    image: ./assets/img/TopologicalOptimization.png
+    notes: Optimization project 
