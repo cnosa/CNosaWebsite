@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Sebastian A. Cruz Romero | University of Puerto Rico at Mayagüez</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.">
+    
+    <meta name="keywords" content="minimal light">
+    
+    
+    <link rel="canonical" href="https://minimal-light-theme.yliu.me/"/>
+    
+
+    <link rel="icon" media="(prefers-color-scheme:dark)" href="./assets/img/favicon-dark.png" type="image/png" />
+    <link rel="icon" media="(prefers-color-scheme:light)" href="./assets/img/favicon.png" type="image/png" />
+    <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
+
+    <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
+    <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin=anonymous>
+
+    
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/publications.css">
+    
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        
+        
+        <a class="image avatar"><img src="./assets/img/avatar.png" alt="avatar" /></a>
+        
+
+        <h1>Sebastián</h1>
+        <h2>Cruz Romero</h2>
+
+        
+        <position style="font-size:1.10rem;">Undergraduate Student</position>
+        <br>
+        
+        
+        <a href="" rel="noopener"><autocolor>University of Puerto Rico at Mayagüez</autocolor></a>
+        <br>
+        
+        
+        <email>sebastian.cruz6[at]upr.edu</email>
+        
+
+        <br>
+        <br>
+        <div class="social-icons">
+        
+        <a style="margin: 0 5px 0 0" href="https://scholar.google.com/citations?user=8AMcDG0AAAAJ&hl=es">
+          <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
+        </a>  
+        
+
+        
+        <a style="margin: 0 5px 0 0" href="assets/files/documents/CruzRomero_Sebastian_CV_LATEST.pdf">
+          <i class="ai ai-cv" style="font-size:1.3rem;"></i>
+        </a>
+        
+
+        
+        <a style="margin: 0 5px 0 0" href="https://github.com/romerocruzsa/">
+          <i class="fab fa-github"></i>
+        </a>
+        
+
+        
+        <a style="margin: 0 5px 0 0" href="https://www.linkedin.com/in/romerocruzsa/">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        
+
+        
+        <a style="margin: 0 0 0 0" href="https://twitter.com/romerocruzsa/">
+          <i class="fab fa-twitter"></i>
+        </a>
+        
+        </div>
+        <br>
+
+      </header>
+      <section>
+
+      <h2 id="about-me">About Me</h2>
+
+<p>I am an undergraudate senior in Computer Science and Engineering at the University 
+  of Puerto Rico at Mayagüez. Currently, I work at the Edge Computing Group under advisement 
+  of Dr. Wilfredo Lugo Beauchamp working on developing memory-efficient models for on-device 
+  processing of anemia detection in <em>conjunctiva pallor*</em> (inner eyelid) [NSF Award OIA-1849243].</p>
+
+<h2 id="research-interests">Research Interests</h2>
+
+<ul>
+  <li><strong>Computer Vision:</strong> biomedical imaging, electron microscopy analysis
+  <li><strong>Machine Learning:</strong> statistical learning, transfer learning</li>
+  <li><strong>Biology:</strong> molecular biology, genetics and genomics, precision medicine</li>
+  <li><strong>Biomedical Engineering:</strong> accesible healthtech, on-device monitoring, disease prevention</li>
+</ul>
+
+<h2 id="news">News</h2>
+
+<ul>
+  <li><strong>[Aug. 2025]</strong> Abstract accepted for SIAM CSE 2025 titled "Evaluating Neural Network Quantization for Conjunctival Pallor Anemia Detection"!</li>
+  <li><strong>[Feb. 2025]</strong> Paper accepted at ISICN 2025 titled "Performance Analysis of Post-training Quantization for Conjunctival Pallor Anemia Detection"!</li>
+  <li><strong>[Dec. 2025]</strong> Submitted research paper at ISICN 2025!</li>
+  <li><strong>[Nov. 2025]</strong> Abstract submitted at SIAM CSE 2025!</li>
+  <li><strong>[Aug. 2024]</strong> Submitted summer research paper at HotMobile 2024!</li>
+  <li><strong>[Summer 2024]</strong> Completed the Apple-NACME Inc. AIML Intensive Bootcamp hosted at USC.</li>
+  <li><strong>[Aug. 2024]</strong> Our paper titled "LSTM Model for Sepsis Detection and Classification Using PPG Signals" was published!</li>
+</ul>
+
+<h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
+
+<div class="publications">
+<ol class="bibliography">
+
+
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="./assets/img/teaser_example_2.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%" />
+            <abbr class="badge">ISICN</abbr>
+  </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+      <div class="title"><a href="">LSTM Model for Sepsis Detection and Classification Using PPG Signals</a></div>
+      <div class="author">*Michael A. Alvarez-Navarro, Luis Huallparimachi, <strong>Sebastián A. Cruz-Romero</strong> & Heidy Sierra (*Corresponding Author(s))</div>
+      <div class="periodical"><em>International Symposium on Intelligent Computing and Networking<strong>(ISICN)</strong>, 2024.</em>
+      </div>
+    <div class="links">
+       
+      <a href="" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      
+       
+      <a href="" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+      
+      
+       
+      <a href="" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
+      
+       
+      <strong> <i style="color:#e74d3c">Early Accept</i></strong>
+      
+      
+    </div>
+  </div>
+</div>
+</li>
+
+<br />
+
+
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="./assets/img/teaser_mrs2021.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%" />
+            <abbr class="badge">MRS</abbr>
+  </div>
+  <div class="col-sm-9" style="position: relative; padding-right: 15px; padding-left: 20px;">
+      <div class="title"><a href="">Synthesis, characterization, and photocatalytic activity of Zns and Mn-doped ZnS nanostructures</a></div>
+      <div class="author">Josian Luciano-Velázquez, Yan Xin, Yi-feng Su, Carla I. Quiles-Vélez, <strong>Sebastián A. Cruz-Romero</strong>, Gabriel E. Torres-Mejías, Julio Rivera-De Jesús & Sonia J. Bailón-Ruiz</div>
+      <div class="periodical"><em>MRS Advances <strong>(MRS)</strong>, 2021.</em>
+      </div>
+    <div class="links">
+       
+      <a href="" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      
+       
+      <a href="" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+      
+       
+      <a href="" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
+      
+       
+      <a href="" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
+      
+       
+      <strong> <i style="color:#e74d3c">Oral Presentation</i></strong>
+      
+      
+    </div>
+  </div>
+</div>
+</li>
+
+<br />
+
+
+
+</ol>
+</div>
+
+<h2 id="services">Services</h2>
+
+<h4 style="margin:0 10px 0;">Conference Reviewers</h4>
+
+<ul style="margin:0 0 5px;">
+  <li><a href="http://cvpr2023.thecvf.com/"><autocolor>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2021-2023</autocolor></a></li>
+  <li><a href="http://iccv2021.thecvf.com/"><autocolor>IEEE/CVF International Conference on Computer Vision (ICCV) 2021</autocolor></a></li>
+  <li><a href="https://eccv2022.ecva.net/"><autocolor>European Conference on Computer Vision (ECCV) 2022</autocolor></a></li>
+</ul>
+
+<h4 style="margin:0 10px 0;">Journal Reviewers</h4>
+
+<ul style="margin:0 0 20px;">
+  <li><a href="https://www.computer.org/csdl/journal/tp"><autocolor>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</autocolor></a></li>
+  <li><a href="https://www.springer.com/journal/11263"><autocolor>International Journal of Computer Vision (IJCV)</autocolor></a></li>
+</ul>
+
+
+      <br>
+
+      
+      <p><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a> theme.</small></p>
+      
+
+      </section>
+      <footer>
+        
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-111540567-4', 'auto');
+      ga('send', 'pageview');
+    </script>
+    
+  </body>
+</html>

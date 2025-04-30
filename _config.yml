@@ -1,47 +1,66 @@
+# Basic Information 
 title: Carlos Nosa
-email: cnosa@unal.edu.co
-tab_title: Carlos Nosa | Web
-url: https://cnosa.github.io/CNosaWebsite/
-# Español
-es:
-  name: Carlos Nosa
-  profession: Matemático
-  status: En busca de oportunidades
-  location: Bogotá, Colombia
-  age: 21 años
-  meta_description: "Portafolio profesional de Carlos Nosa, Matemático en formación"
-  nav_links:
-    home: "Inicio"
-    blog: "Blog"
-en:
-  name: Carlos Nosa
-  profession: Mathematician
-  status: Looking for opportunities
-  location: Bogotá, Colombia
-  age: 21 years
-  meta_description: "Professional portfolio of Carlos Nosa, Mathematician in training"
-  nav_links:
-    home: "Home"
-    blog: "Blog"
+position: Matematician
+affiliation: National University of Colombia, Bogotá
+email: cnosa[at]unal.edu.co
 
+# Search Engine Optimization (SEO)
+# The following information is used to improve the website traffic from search engines, e.g., Google.
+keywords: minimal light
+description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
+canonical: https://minimal-light-theme.yliu.me/
 
+# Links 
+# If you don't need one of them, you may delete the corresponding line.
+# orcid: https://orcid.org/0000-0003-3892-2273/
+google_scholar: https://scholar.google.com/citations?user=8AMcDG0AAAAJ&hl=es
+cv_link: ./assets/files/documents/CruzRomero_Sebastian_CV_LATEST.pdf
+github_link: https://github.com/romerocruzsa
+linkedin: https://www.linkedin.com/in/romerocruzsa
+# twitter: https://twitter.com/
 
+# Images (e.g., your profile picture and your website's favicon) 
+# "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
+avatar: ./assets/img/avatar.png
+favicon: ./assets/img/favicon.png
+favicon_dark: ./assets/img/favicon.png
 
+# Footnote
+# You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
+enable_footnote: false
 
-description: Proffesional portfolio
-theme: jekyll-theme-minimal
-linkedin_url: https://www.linkedin.com/in/carlos-enrique-nosa-guzman-069258300/
-github_url: https://github.com/cnosa
-instagram_url: https://www.instagram.com/nosanonimo/
-plugins:
-  - jekyll-polyglot
-  - jekyll-paginate
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: default
-      lang: es
-languages: ["es", "en"]
-exclude_from_localizations: ["assets", "images"]
+# Auto Dark Mode
+# You may use the option to disable the automatic dark theme
+auto_dark_mode: true
 
+# Font
+# You can use this option to choose between Serif or Sans Serif fonts.
+font: "Serif" # or "Sans Serif"
+
+# Google Analytics ID
+# Please remove this if you don't use Google Analytics
+# google_analytics: 
+
+collections:
+  blogs:
+    output: true
+    permalink: /blogs/:title/
+
+include:
+  - _blogs
+
+# Use this project as a remote theme for GitHub Pages
+# See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
+remote_theme: yaoyao-liu/minimal-light
+
+# The following files will be removed from the generated website.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - README_zh_Hans.md
+  - README_zh_Hant.md
+  - README_de.md
+  - LICENSE
+  - minimal-light.gemspec
+  - html_source_file/

@@ -1,144 +1,72 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+  <head>
+    <title>{{ page.title }} | {{ site.title }}</title>
 
-<style>
-  /* Tarjetas horizontales */
-  .blog-card {
-    display: flex;
-    border: 1px solid #eaeaea;
-    border-radius: 8px;
-    overflow: hidden;
-    margin-bottom: 1.5rem;
-    background: #fff;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-    transition: transform 0.3s;
-    width: 100%;
-  }
-  .blog-card:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ site.description }}">
+    {% if site.keywords %}<meta name="keywords" content="{{ site.keywords }}">{% endif %}
+    {% if site.canonical %}<link rel="canonical" href="{{ site.canonical }}"/>{% endif %}
 
-  .blog-card-image-container {
-    flex: 0 0 200px;
-  }
-  .blog-card-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+    <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark }}" type="image/png" />
+    <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/png" />
+    <script src="{{ '/assets/js/favicon-switcher.js' | relative_url }}" type="application/javascript"></script>
 
-  .blog-card-content {
-    flex: 1;
-    padding: 1.5rem;
-  }
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  /* Nuevos estilos para el enlace del título */
-  .post-title-link {
-    color: inherit;
-    text-decoration: none;
-    transition: color 0.3s;
-  }
-  .post-title-link:hover {
-    color: var(--azul-profesional);
-    text-decoration: underline;
-  }
+    {% if site.font == "Sans Serif" %}
+    <link rel="stylesheet" href="{{ '/assets/css/font_sans_serif.css' | relative_url }}">
+    {% else %}
+    <link rel="stylesheet" href="{{ '/assets/css/font.css' | relative_url }}">
+    {% endif %}
+    {% if site.auto_dark_mode %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/publications.css' | relative_url }}">
+    {% else %}
+    <link rel="stylesheet" href="{{ '/assets/css/style-no-dark-mode.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/publications-no-dark-mode.css' | relative_url }}">
+    {% endif %}
+  </head>
+  <body>
+    </head>
+    <body>
+      <nav class="github-navbar">
+        <div class="nav-left">
+          <a class="nav-link" href="{{ '/' | relative_url }}">Home</a>
+          <a class="nav-link" href="{{ '/blogs/' | relative_url }}">Blogs</a>
+        </div>
+      </nav>
 
-  /* Estilos para las tags - Versión mejorada */
-.blog-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 1.2rem;
-}
+      <div>
+        <p></p>
+      </div>
 
-.tag {
-  background: linear-gradient(135deg, var(--azul-profesional) 0%, #1e40af 100%);
-  color: white;
-  padding: 0.35rem 0.9rem;
-  border-radius: 20px;
-  font-size: 0.75rem;
-  font-weight: 500;
-  letter-spacing: 0.5px;
-  text-transform: lowercase;
-  transition: all 0.3s ease;
-  box-shadow: 0 2px 4px rgba(30, 64, 175, 0.1);
-}
-
-.tag:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(30, 64, 175, 0.2);
-  background: linear-gradient(135deg, #1e40af 0%, var(--azul-profesional) 100%);
-}
-
-.tag::first-letter {
-  text-transform: uppercase;
-}
-
-  /* Responsive */
-  @media (max-width: 750px) {
-    .main-content {
-      margin-left: 0 !important;
-      padding: 15px !important;
-    }
-    .blog-card {
-      flex-direction: column;
-    }
-    .blog-card-image-container {
-      flex: 0 0 150px;
-    }
-  }
-</style>
-
-<div class="main-content">
-  {{ content }}
-
-  {% comment %} Debug: Mostrar el idioma actual {% endcomment %}
-  <!-- Debug: page.lang = {{ page.lang }} -->
-
-  <div class="blog-list">
-    {% for post in site.posts %}
-      {% comment %} Debug: Mostrar idioma de cada post {% endcomment %}
-      <!-- Post: {{ post.title }} | lang: {{ post.lang }} -->
-      
-      {% if post.lang == page.lang or (post.lang == nil and page.lang == 'es') %}
-        <article class="blog-card">
-          {% if post.thumbnail %}
-            <div class="blog-card-image-container">
-              <a href="{{ post.url | relative_url }}" aria-label="{% if page.lang == 'es' %}Leer{% else %}Read{% endif %} {{ post.title }}">
-                <img src="{{ post.thumbnail | relative_url }}" 
-                     alt="{{ post.title }}" 
-                     class="blog-card-image"
-                     loading="lazy">
-              </a>
-            </div>
-          {% endif %}
-          
-          <div class="blog-card-content">
-            <h2>
-              <a href="{{ post.url | relative_url }}" class="post-title-link">
-                {{ post.title }}
-              </a>
-            </h2>
-            
-            <p class="blog-meta">
-              {{ post.date | date: "%d/%m/%Y" }} 
-              {% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %}
-            </p>
-            
-            <p class="blog-excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</p>
-            
-            {% if post.tags %}
-              <div class="blog-tags">
-                {% for tag in post.tags %}
-                  <span class="tag">{{ tag }}</span>
-                {% endfor %}
-              </div>
-            {% endif %}
-          </div>
-        </article>
+    <div class="wrapper">
+      {% if page.thumbnail %}
+        <img class="blog-thumbnail" src="{{ page.thumbnail | relative_url }}" alt="{{ page.title }} thumbnail" style="width:100%; height:auto; max-height:400px; object-fit:cover; border-radius: 10px; margin-bottom: 1.5rem;">
       {% endif %}
-    {% endfor %}
-  </div>
-</div>
+
+      <section class="blog-post">
+        <h1>{{ page.title }}</h1>
+        <p class="blog-meta">By {{ page.author }} · {{ page.date | date: '%Y-%m-%d' }}</p>
+        <div class="blog-content">
+          {{ content }}
+        </div>
+      </section>
+    </div>
+
+    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+    {% if site.google_analytics %}
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', '{{ site.google_analytics }}', 'auto');
+      ga('send', 'pageview');
+    </script>
+    {% endif %}
+  </body>
+</html>
