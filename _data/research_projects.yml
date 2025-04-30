@@ -45,7 +45,7 @@ main:
     image: ./assets/img/TopologicalOptimization.png
     notes: 
 
-  - title: Richards equation: Numerical solution using the nonlinear finite element method
+  - title: Richards equation. Numerical solution using the nonlinear finite element method
     authors: <strong>Carlos Nosa</strong>
     conference_short: 
     conference: National University of Colombia, Bogotá, Colombia, 2024.
