@@ -42,3 +42,17 @@ Mathematician with strong academic background and expertise in applying mathemat
 {% include_relative _includes/research_projects.md %}
 
 {% include_relative _includes/services.md %}
+
+
+## Technical Skills
+
+**Languages**:  
+`Python` `Julia` `R` `SQL`  
+
+**Tools**:  
+- Data Science: `Jupyter` `PyMC3` `TensorFlow` `Power BI`  
+- Modeling: `MATLAB` `LaTeX`  
+- Cloud: `AWS`  
+
+**Languages**:  
+Spanish (Native) | English (Professional) | French (Basic)  
