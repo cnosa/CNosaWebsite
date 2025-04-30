@@ -1,12 +1,11 @@
 main:
 
-  - title: The Metropolis-Hastings Algorithm: inverse problems, model calibration, and the TOMGRO model
+  - title: The Metropolis-Hastings Algorithm Inverse problems, model calibration, and the TOMGRO model
     authors: <strong>Carlos Nosa</strong>, and Dr. Juan Galvis
-
     conference_short: UNAL, 2025
     conference: National University of Colombia, Bogotá, Colombia, 2025
     pdf: ./assets/files/papers/Document_Metropolis_Hastings.pdf
-    code: 
+    code: https://github.com/cnosa/Metropolis-Hastings
     bibtex: 
     image: ./assets/img/UnderThesis.png
     notes: Undergraduate thesis project
