@@ -22,7 +22,7 @@ main:
     authors: Dr Rodrigo Gil,  Dr Juan Galvis, <strong>Carlos Nosa</strong>
     conference_short: Presented at MAPI 3, 2024
     conference: National University of Colombia, Bogotá, Colombia, 2024.
-    pdf: 
+    pdf: ./assets/files/documents/Presentación_TOMGRO__MAPI3_.pdf
     code: https://github.com/cnosa/ModeloTOMGRO
     image: ./assets/img/TomgroModel.png
     notes: 
@@ -31,7 +31,7 @@ main:
     authors: Dr Juan Galvis, <strong>Carlos Nosa</strong>, Brayan Romero
     conference_short: Presented at MAPI 3, 2024
     conference: National University of Colombia, Bogotá, Colombia, 2024.
-    pdf: 
+    pdf: ./assets/files/documents/Presentación_ALN__MAPI3_.pdf
     code: https://github.com/cnosa/EigenFaces
     image: ./assets/img/Eigenfaces.png
     notes: 

@@ -10,24 +10,26 @@ Mathematician with strong academic background and expertise in applying mathemat
 
 **Information**:  
 
-- 📧 Proffesional email: cnosa@unal.edu.co  
-- 📧 Personal email: cnosa47@gmail.com  
+- 📧 Proffesional email: [cnosa@unal.edu.co](mailto:cnosa@unal.edu.co)  
+- 📧 Personal email: [cnosa47@gmail.com](mailto:cnosa@unal.edu.co)
 - 📃 [CV: English version](/assets/files/documents/cv_en.pdf){:target="_blank"}
 - 📃 [CV: Spanish version](/assets/files/documents/cv_es.pdf){:target="_blank"}
 
 
-## Research Interests
+## Interests
 
-- **Stochastic Processes & Variational Inference.**  Scalable Bayesian methods for high-dimensional stochastic systems.  
-- **Deep Learning.**  Bridging modeling and computer vision in deep learning.
-- **Dynamical systems** Analysis of stochastic ODEs and PDEs.
+- ***Research Interests***
+
+    - **Stochastic Processes & Variational Inference.**  Scalable Bayesian methods for high-dimensional stochastic systems.  
+    - **Deep Learning.**  Bridging modeling and computer vision in deep learning.
+    - **Dynamical systems** Analysis of stochastic ODEs and PDEs.
 
 
 ## Education
 
 ### B.Sc. in Mathematics  
 
-*National University of Colombia* | *2020–2025*  
+*National University of Colombia* | *Feb 2020 – May 2025*  
 
 - **GPA**: 4.7/5.0 (tuition exemption for academic excellence)  
 - **Thesis**: "Metropolis-Hastings Algorithm for Inverse Problems" (Grade: 5.0/5.0)  
