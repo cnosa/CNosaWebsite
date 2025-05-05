@@ -23,7 +23,7 @@ main:
     conference_short: Presented at MAPI 3, 2024
     conference: National University of Colombia, Bogotá, Colombia, 2024.
     pdf: ./assets/files/documents/Presentación_TOMGRO__MAPI3_.pdf
-    code: https://github.com/cnosa/ModeloTOMGRO
+    code: https://github.com/cnosa/LearningProjects/tree/main/Modeling/TOMGROModel
     image: ./assets/img/TomgroModel.png
     notes: 
 
@@ -32,7 +32,7 @@ main:
     conference_short: Presented at MAPI 3, 2024
     conference: National University of Colombia, Bogotá, Colombia, 2024.
     pdf: ./assets/files/documents/Presentación_ALN__MAPI3_.pdf
-    code: https://github.com/cnosa/EigenFaces
+    code: https://github.com/cnosa/LearningProjects/tree/main/Modeling/Eigenfaces
     image: ./assets/img/Eigenfaces.png
     notes: 
   
@@ -41,7 +41,7 @@ main:
     conference_short: 
     conference: National University of Colombia, Bogotá, Colombia, 2024.
     pdf: 
-    code: https://github.com/cnosa/OptimizacionTopologica
+    code: https://github.com/cnosa/LearningProjects/tree/main/Optimization/TopologicalOptimization
     image: ./assets/img/TopologicalOptimization.png
     notes: 
 
@@ -50,7 +50,7 @@ main:
     conference_short: 
     conference: National University of Colombia, Bogotá, Colombia, 2024.
     pdf: 
-    code: https://github.com/cnosa/EcuacionRichards
+    code: https://github.com/cnosa/LearningProjects/tree/main/Modeling/RichardsEquation
     image: ./assets/img/RichardsEquation.png
     notes: 
 
@@ -60,7 +60,7 @@ main:
     conference_short: 
     conference: National University of Colombia, Bogotá, Colombia, 2022.
     pdf: 
-    code: https://github.com/cnosa/SucesionesdeFarey
+    code: https://github.com/cnosa/LearningProjects/tree/main/Modeling/FareySequences
     image: ./assets/img/FareySequences.png
     notes: 
 
