@@ -16,6 +16,13 @@ Mathematician with strong academic background and expertise in applying mathemat
 - 📃 [CV: Spanish version](/assets/files/documents/cv_es.pdf){:target="_blank"}
 
 
+- [Interests](#interests)
+- [Education](#education)
+- [Skills](#skills)
+- [News](#recent-updates)
+- [Certificates](#certificates)
+
+
 ## Interests
 
 - ***Research Interests***
@@ -74,4 +81,9 @@ Mathematician with strong academic background and expertise in applying mathemat
 
 {% include_relative _includes/services.md %}
 
+## Certificates
 
+- Computer Vision - Platzi [PDF](assets\files\documents\Cert-computer-vision.pdf)
+- Power BI - Universidad de los Andes [PDF](assets\files\documents\Cert_PowerBI.pdf)
+- SQL Server - cymetria [PDF](assets\files\documents\Cert_SQL.pdf)
+- English B2 - Smart Academy [PDF](assets\files\documents\Cert_En.pdf)
