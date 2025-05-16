@@ -4,6 +4,15 @@ layout: homepage
 
 <!-- {% include_relative _config.yml %} -->
 
+
+- [Interests](#interests)
+- [Education](#education)
+- [Skills](#skills)
+- [News](#recent-updates)
+- [Publications](#publications)
+- [Certificates](#certificates)
+
+
 ## About Me
 
 Mathematician with strong academic background and expertise in applying mathematical and computational tools to real-world problems. My experience includes mathematical modeling, statistical analysis, and programming, developed through academic research and undergraduate mathematics instruction. I thrive on new challenges, adapt quickly to diverse environments, and am committed to continuous learning. I particularly enjoy collaborative work in multidisciplinary teams where I can contribute analytical thinking and rigorous problem-solving approaches. Currently, I am actively seeking new professional opportunities where I can apply and expand my expertise.
@@ -16,11 +25,7 @@ Mathematician with strong academic background and expertise in applying mathemat
 - 📃 [CV: Spanish version](/assets/files/documents/cv_es.pdf){:target="_blank"}
 
 
-- [Interests](#interests)
-- [Education](#education)
-- [Skills](#skills)
-- [News](#recent-updates)
-- [Certificates](#certificates)
+
 
 
 ## Interests
@@ -74,6 +79,7 @@ Mathematician with strong academic background and expertise in applying mathemat
 
 - **[May 2025]** Graduated with honors in Mathematics from National University of Colombia
 
+## Publications
 
 {% include_relative _includes/publications.md %}
 
