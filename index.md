@@ -4,13 +4,8 @@ layout: homepage
 
 <!-- {% include_relative _config.yml %} -->
 
-
-- [Interests](#interests)
-- [Education](#education)
-- [Skills](#skills)
-- [News](#recent-updates)
-- [Publications](#publications)
-- [Certificates](#certificates)
+| [🎯 Interests](#interests) | [🎓 Education](#education) | [🛠️ Skills](#skills) | [🗞️ News](#recent-updates) | [📝 Publications](#publications) | [🚀 Projects](#projects) | [💼 Experience](#experience) | [📜 Certificates](#certificates) |
+|----------------------------|----------------------------|------------------------|-----------------------------|----------------------------------|----------------------------|------------------------------|----------------------------------|
 
 
 ## About Me
@@ -75,7 +70,7 @@ Mathematician with strong academic background and expertise in applying mathemat
 - Analytical thinking
 
 
-## Recent Updates
+## Recent updates
 
 - **[May 2025]** Graduated with honors in Mathematics from National University of Colombia
 
@@ -83,7 +78,11 @@ Mathematician with strong academic background and expertise in applying mathemat
 
 {% include_relative _includes/publications.md %}
 
+## Projects
+
 {% include_relative _includes/research_projects.md %}
+
+## Experience
 
 {% include_relative _includes/services.md %}
 
