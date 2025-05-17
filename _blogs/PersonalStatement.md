@@ -4,7 +4,7 @@ title: "Personal statement"
 author: "Carlos Nosa"
 date: 2025-05-17
 excerpt: ""
-thumbnail: assets\blogs_content\MAPI_moi.jpg
+thumbnail: ./assets/blogs_content/MAPI_moi.jpg
 ---
 
 # Personal statement
