@@ -5,7 +5,6 @@ layout: homepage
 <!-- {% include_relative _config.yml %} -->
 
 | [🎯 Interests](#interests) | [🎓 Education](#education) | [🛠️ Skills](#skills) | [🗞️ News](#recent-updates) | [📝 Publications](#publications) | [🚀 Projects](#projects) | [💼 Experience](#experience) | [📜 Certificates](#certificates) |
-|----------------------------|----------------------------|------------------------|-----------------------------|----------------------------------|----------------------------|------------------------------|----------------------------------|
 
 
 ## About Me
