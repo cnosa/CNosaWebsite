@@ -1,6 +1,13 @@
-- title: "Summarizing my undergraduate thesis"
-  description: "Summarizing my undergraduate thesis by me"
-  tags: ["test", "blog"]
+- title: "Metropolis Hastings algorithm applied to dynamical systems"
+  description: "A deep dive into the Metropolis Hastings algorithm and its applications in dynamical systems."
+  tags: ["Bayesian inference", "Dynamical systems"]
   author: "Carlos Nosa"
   date: 2025-03-30
-  include: "Summarizingmyundergraduatethesis.md"
+  include: "MH_DS.md"
+
+- title: "Personal statement"
+  description: "A description of my personal journey and aspirations"
+  tags: ["Personal"]
+  author: "Carlos Nosa"
+  date: 2025-02-08
+  include: "PersonalStatement.md"

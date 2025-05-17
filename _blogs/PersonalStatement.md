@@ -1,11 +1,13 @@
 ---
 layout: blog
-title: "Summarizing my undergraduate thesis"
+title: "Personal statement"
 author: "Carlos Nosa"
-date: 2025-03-30
-excerpt: "Summarizing my undergraduate thesis by me"
-thumbnail: ./assets/img/UnderThesis.png
+date: 2025-05-17
+excerpt: ""
+thumbnail: assets\blogs_content\MAPI_moi.jpg
 ---
+
+# Personal statement
 
 *Let’s talk about purpose.  
 Let’s talk about people.  
