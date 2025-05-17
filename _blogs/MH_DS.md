@@ -7,4 +7,4 @@ excerpt: "Summarizing my undergraduate thesis"
 thumbnail: ./assets/blogs_content/LogisticMH.png
 ---
 
-# Metropolis Hastings algorithm applied to dynamical systems
+In the

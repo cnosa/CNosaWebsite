@@ -3,11 +3,10 @@ layout: blog
 title: "Personal statement"
 author: "Carlos Nosa"
 date: 2025-05-17
-excerpt: ""
+excerpt: "A description of my personal journey and aspirations"
 thumbnail: ./assets/blogs_content/MAPI_moi.jpg
 ---
 
-# Personal statement
 
 *Let’s talk about purpose.  
 Let’s talk about people.  
