@@ -34,7 +34,7 @@ where $Y, X$, and $E$ are random variables whose probability distributions are r
 
 
 
-![MH algorithm in dynamical systems](https://github.com/cnosa/cnosa.github.io/blob/main/assets/blogs_content/MHinParameterEstimation.png)
+![MH algorithm in dynamical systems](/assets/blogs_content/MHinParameterEstimation.png)
 
 
 ## References
