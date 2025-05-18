@@ -1,12 +1,12 @@
 - title: "Different classification techniques applied to the MNIST dataset"
-  description: "What is the better model for recognizing a handwritten digit?"
+  description: "What is the better model for recognizing a handwritten digit"
   tags: ["Machine learning"]
   author: "Carlos Nosa"
   date: 2025-05-24
   include: "ClassificationMNIST.md"
 
 - title: "Metropolis Hastings algorithm applied to dynamical systems"
-  description: "A deep dive into the Metropolis Hastings algorithm and its applications in dynamical systems."
+  description: "A deep dive into the Metropolis Hastings algorithm and its applications in dynamical systems"
   tags: ["Bayesian inference", "Dynamical systems"]
   author: "Carlos Nosa"
   date: 2025-03-30
