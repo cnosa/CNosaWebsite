@@ -7,4 +7,37 @@ excerpt: "What is the better model for recognizing a handwritten digit?"
 thumbnail: ./assets/blogs_content/in_progress.jpg
 ---
 
-In the
+```python
+def saludo():
+    print("¡Hola, Mundo!")
+saludo()
+```
+
+## Introduction
+
+
+## Naive minimization
+
+
+## Logistic regression
+
+
+## KSVM
+
+
+## PCA + k-Means
+
+
+## Ensemble Learning Classifiers
+
+
+### Random forest
+
+
+### AdaBoost
+
+
+### Bagging classifier
+
+
+## Convolutional neural networks
