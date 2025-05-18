@@ -15,7 +15,7 @@
 
 - title: "Different classification techniques applied to the MNIST dataset"
   description: "What is the better model for recognizing a handwritten digit?"
-  tags: ["Machine learning""]
+  tags: ["Machine learning"]
   author: "Carlos Nosa"
   date: 2025-02-08
   include: "Classification_MNIST.md"
