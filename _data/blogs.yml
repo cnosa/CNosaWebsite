@@ -1,3 +1,38 @@
+- title: "Data driven dynamical systems"
+  description: "Discovering dynamics from data"
+  tags: ["Dynamical systems","Machine learning"]
+  author: "Carlos Nosa"
+  date: 2025-05-29
+  include: "ML_DS.md"
+
+- title: "RummiQ: strategies and data analysis"
+  description: "A introduction to a beautiful game from the data analysis and game theory"
+  tags: ["Game theory"]
+  author: "Maria Jaimes and Carlos Nosa"
+  date: 2025-05-28
+  include: "IntroductionRummiQ.md"
+
+- title: "Introduction to variational inference"
+  description: "From probability theory to variational autoencoders"
+  tags: ["Variational inference", "Deep learning"]
+  author: "Carlos Nosa"
+  date: 2025-05-27
+  include: "InfVar.md"
+
+- title: "Generalized linear autoregressive moving average (GLARMA) model"
+  description: "A walk through time series analysis and generalized linear models"
+  tags: ["Generalized linear models", "Time series"]
+  author: "Carlos Nosa"
+  date: 2025-05-26
+  include: "GLARMA.md"
+
+- title: "Generative adversarial neural networks applied to MNIST dataset"
+  description: "An amazing introduction to the generative AI and latent space models"
+  tags: ["Deep learning"]
+  author: "Carlos Nosa"
+  date: 2025-05-25
+  include: "GAN_MNIST.md"
+
 - title: "Different classification techniques applied to the MNIST dataset"
   description: "What is the better model for recognizing a handwritten digit"
   tags: ["Machine learning"]
