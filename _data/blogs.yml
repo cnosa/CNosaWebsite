@@ -12,10 +12,9 @@
   date: 2025-02-08
   include: "PersonalStatement.md"
 
-
 - title: "Different classification techniques applied to the MNIST dataset"
   description: "What is the better model for recognizing a handwritten digit?"
   tags: ["Machine learning"]
   author: "Carlos Nosa"
-  date: 2025-02-08
+  date: 2025-05-24
   include: "Classification_MNIST.md"
