@@ -3,7 +3,7 @@
   tags: ["Machine learning"]
   author: "Carlos Nosa"
   date: 2025-05-24
-  include: "Classification_MNIST.md"
+  include: "ClassificationMNIST.md"
 
 - title: "Metropolis Hastings algorithm applied to dynamical systems"
   description: "A deep dive into the Metropolis Hastings algorithm and its applications in dynamical systems."
