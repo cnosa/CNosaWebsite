@@ -1,14 +1,14 @@
 - title: "Metropolis Hastings algorithm applied to dynamical systems"
-  description: "A deep dive into the Metropolis Hastings algorithm and its applications in dynamical systems"
-  tags: ["Bayesian inference", "Dynamical systems"]
+  description: "Statistical inverse problems"
+  tags: ["Bayesian inference", "Dynamical systems", "Inverse problems"]
   author: "Carlos Nosa"
   date: 2025-06-30
-  include: "MH_DS.md"
+  include: "Post1.md"
 
 - title: "Personal statement"
   description: "A description of my personal journey and aspirations"
   tags: ["Personal"]
   author: "Carlos Nosa"
   date: 2025-05-30
-  include: "PersonalStatement.md"
+  include: "Post0.md"
 

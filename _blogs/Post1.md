@@ -1,12 +1,12 @@
 ---
 layout: blog
-title: "Metropolis Hastings algorithm applied to dynamical systems"
+title: "Introduction of inverse problems from a statistical perspective"
 author: "Carlos Nosa"
 date: 2025-06-30
-excerpt: "Summarizing my undergraduate thesis"
-tags: ["Bayesian inference", "Dynamical systems"]
+excerpt: "Statistical inverse problems"
+tags: ["Bayesian inference", "Dynamical systems", "Inverse problems"]
 thumbnail: ./assets/blogs_content/LogisticMH.png
-permalink: /MH_DS/
+permalink: /Post1/
 ---
 
 ## Introduction

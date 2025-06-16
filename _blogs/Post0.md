@@ -5,7 +5,7 @@ author: "Carlos Nosa"
 date: 2025-05-30
 excerpt: "A description of my personal journey and aspirations"
 thumbnail: ./assets/blogs_content/MAPI_moi.jpg
-permalink: /PersonalStatement/
+permalink: /Post0/
 ---
 
 
