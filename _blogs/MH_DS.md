@@ -6,6 +6,7 @@ date: 2025-03-30
 excerpt: "Summarizing my undergraduate thesis"
 tags: ["Bayesian inference", "Dynamical systems"]
 thumbnail: ./assets/blogs_content/LogisticMH.png
+permalink: /MH_DS/
 ---
 
 ## Introduction
