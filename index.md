@@ -28,12 +28,12 @@ Mathematician with strong academic background and expertise in applying mathemat
 
     - **Stochastic Processes & Variational Inference.**  Scalable Bayesian methods for high-dimensional stochastic systems.  
     - **Deep Learning.**  Bridging modeling and computer vision in deep learning.
-    - **Dynamical systems** Analysis of stochastic ODEs and PDEs.
+    - **Dynamical systems** Analysis of ODEs and PDEs.
 
 
 ## Education
 
-### B.Sc. in Mathematics  
+### B.Sc. in Mathematics (Honor)
 
 *National University of Colombia* | *Feb 2020 – May 2025*  
 
